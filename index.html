@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registration - with animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Forms-Wrapper">
+        <form class="Form-Write-Data form-signup is-active" method="post">
+            <header class="container-header">
+                <h1 class="header-text">Sign Up</h1>
+                <button type="button" class="Sign" data-switch="signin">Sing In</button>
+            </header>
+            <input type="text" class="Input-Data Name" id="signup-name" placeholder="Login : "><br>
+            <input type="password" class="Input-Data Password" id="signup-password" placeholder="Password : "><br>
+            <input type="password" class="Input-Data Check-Password" id="signup-check-password" placeholder="Check Password : "><br>
+            <input type="email" class="Input-Data Email" id="signup-email" placeholder="Email : "><br>
+            <button type="submit" class="submit-button">Send Data</button>
+        </form>
+
+        <form class="Form-Write-Data form-signin" method="get">
+            <header class="container-header">
+                <h1 class="header-text">Sign In</h1>
+                <button type="button" class="Sign" data-switch="signup">Sing Up</button>
+            </header>
+            <input type="text" class="Input-Data Name" id="signin-name" placeholder="Login : "><br>
+            <input type="email" class="Input-Data Email" id="signin-email" placeholder="Email : "><br>
+            <input type="password" class="Input-Data Password" id="signin-password" placeholder="Password : "><br>
+            <button type="submit" class="submit-button">Send Data</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
